@@ -1,0 +1,21 @@
+{
+  "name": "23481a05A4",
+  "version": "1.0.0",
+  "main": "notification_app_be/server.js",
+
+  "scripts": {
+    "start": "node notification_app_be/server.js",
+    "dev": "nodemon notification_app_be/server.js",
+    "scheduler": "node vehicle_maintainance_scheduler/scheduler.js"
+  },
+
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
